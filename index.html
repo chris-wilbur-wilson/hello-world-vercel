@@ -7,11 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- Auth Screen -->
+    <div id="authContainer" class="container">
+        <h1>Welcome!</h1>
+        <p class="subtitle">Sign in to continue</p>
+        
+        <div id="authForm">
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button id="signInBtn">Send Magic Link</button>
+            <div id="authMessage" class="message hidden"></div>
+        </div>
+    </div>
+
+    <!-- Main App (Hidden until authenticated) -->
+    <div id="appContainer" class="container hidden">
+        <div class="user-info">
+            <span id="userEmail"></span>
+            <button id="signOutBtn" class="sign-out-btn">Sign Out</button>
+        </div>
         <h1>Welcome!</h1>
         <button id="helloBtn">Click Me</button>
         <div id="message" class="message hidden"></div>
     </div>
-    <script src="main.js"></script>
+
+    <script type="module" src="main.js"></script>
 </body>
 </html>

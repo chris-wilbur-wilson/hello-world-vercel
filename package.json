@@ -5,5 +5,21 @@
   "scripts": {
     "dev": "npx serve .",
     "start": "npx serve ."
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-wilbur-wilson/hello-world-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chris-wilbur-wilson/hello-world-vercel/issues"
+  },
+  "homepage": "https://github.com/chris-wilbur-wilson/hello-world-vercel#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0"
   }
 }
