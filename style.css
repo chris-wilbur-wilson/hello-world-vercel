@@ -49,6 +49,10 @@ button:active {
     transform: translateY(0);
 }
 
+.hidden {
+    display: none !important;
+}
+
 .message {
     margin-top: 2rem;
     padding: 1rem;
